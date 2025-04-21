@@ -11,9 +11,9 @@ Using REMI as web interface bridge. https://github.com/dddomodossola/remi
 
 You'll need to install it, for example:
 
-sudo pip install https://github.com/dddomodossola/remi/archive/master.zip
+pip install remi==2022.7.27
 
-rosrun web_dyn_reconf dyn_reconf_remi.py
+ros2 launch web_dyn_reconf dyn_reconf_remi.launch.py
 
 Work in progress!
 
